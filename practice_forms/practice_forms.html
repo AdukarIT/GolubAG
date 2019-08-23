@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Форма заказа пиццы</title>
+</head>
+<body>
+	<form name="pizza_order" action="form.php" method="post">
+		<p>
+			<label> Выберите пиццу:
+				<select name="view_pizza">
+					<option value="pz_1" selected>Маргарита</option>
+					<option value="pz_2">Сицилийская</option>
+					<option value="pz_3">Дьябола</option>
+					<option value="pz_4">Четыре сыра</option>
+					<option value="pz_5">Неаполитанская</option>
+				
+				</select>
+			</label>
+		</p>
+		<p>
+			Выберите основу: <br>
+			<label>
+				<input type="radio" name="base" value="base_1" checked>
+				тонкий край
+			</label>
+			<label>
+				<input type="radio" name="base" value="base_2">
+				толстый край
+			</label>
+		</p>
+		<p>
+			<label>
+				<input type="checkbox" name="cut">
+				Разрезать пиццу
+			</label>
+		</p>
+		<p>
+			<label> Номер телефона для связи
+				<input type="phone" name="phone" autocomplete>
+		    </label>
+		</p>
+		<p>
+			<label> Адрес доставки
+				<input type="text" name="address" autocomplete>
+		    </label>
+		</p>
+		<p>
+			<label> Дополнительные пожелания <br>
+				<textarea cols="30" rows="5" name="additionally" placeholder="Время доставки, код домофона и пр.">
+				</textarea>
+			</label>
+		</p>
+		<p>
+			<input type="submit" value="Заказать">
+		</p>
+	</form>
+</body>
+</html>

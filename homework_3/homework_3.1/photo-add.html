@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head charset="utf-8">
+	<title>Социальная фотографий и видео Instagram пост</title>
+</head>
+<body>
+      <header>
+		<h1>Социальная сеть фотографий и видео Instagram</h1>
+		<img src="img/insta_logo-300x291.png" width="200" alt="Соцсеть фотографий и видео Instagram">
+	</header>
+	<a href="feed.html">Посмотреть публикации</a>
+	<form name="new_publication" action="feed.html" method="post">
+			<p>
+				<label> Напишите текст поста <br>
+					<textarea cols="30" rows="5" name="additionally" placeholder="Ваш пост">
+					</textarea>
+				</label>
+			</p>
+			<p>
+				<label for="profile_pic">Загрузить фото или видео для поста</label><br><br>
+    				<input type="file" id="profile_pic" name="profile_pic"
+          			accept=".jpg, .mp4, .png">
+			</p>
+			<p>
+				<input type="submit" value="Опубликовать пост">
+			</p>
+	</form>
+</body>
+</html>
