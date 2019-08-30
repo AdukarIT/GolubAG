@@ -9,3 +9,4 @@
 ### Задание 1. [Форма для заказа пиццы](https://github.com/AdukarIT/GolubAG/tree/master/practice_forms)
 ## Продвинутый HTML
 ### Задание 1. [Соцсеть фотографий и видео (Instagram)](https://github.com/AdukarIT/GolubAG/tree/master/homework_3/homework_3.1)
+### Задание 2. [Сайт руководств по изучению иностранных языков](https://github.com/AdukarIT/GolubAG/tree/master/homework_3/homework_3.2)
