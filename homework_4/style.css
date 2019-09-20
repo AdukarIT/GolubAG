@@ -1,0 +1,43 @@
+.menu_headers {
+	font-size: 20px;
+	padding-left: 30px;
+
+}
+.drop-down_list {
+	padding-left: 35px;
+	display: none;
+}
+.menu_headers:hover .drop-down_list {
+	display: block;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+}
+a:visited {
+	color: violet;
+}
+
+form {
+	padding-left: 30px;
+	padding-top: 100px;
+}
+.regular_link {
+	color: blue;
+}
+.hidden {
+	display: none;
+
+}
+
+input:checked ~ .hidden{
+	display: block;
+
+}
+.large_paragraph {
+	display: block;
+	padding-left: 105px;
+}
